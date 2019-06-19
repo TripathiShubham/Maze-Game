@@ -1,0 +1,22 @@
+.box > span {
+    padding: 15px 15px;
+}
+
+td.box {
+    width: 60px;
+    height: 60px;
+    border: 1px solid grey;
+    background: #fbd5d5;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.tab {
+    padding: 20px;
+    border: 2px solid grey;
+    background: #e6e3e69e;
+}

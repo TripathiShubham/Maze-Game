@@ -1,0 +1,19 @@
+<div class="container">
+  <table class="tab">
+    <tr class="tr" *ngFor="let row of board; index as i">
+      <td class="box" *ngFor="let height of row; index as j">
+        <span *ngIf="board[i][j] === 0"></span>
+        <span *ngIf="board[i][j] === 1">
+          <i class="material-icons">
+            bug_report
+          </i>
+        </span>
+        <span *ngIf="board[i][j] === 10">
+          <i class="material-icons">
+            perm_identity
+          </i>
+        </span>
+      </td>
+    </tr>
+  </table>
+</div>
